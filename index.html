@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameOn - Join the Waitlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">GameOn</div>
+        </header>
+        
+        <main>
+            <section class="hero">
+                <h1 class="glitch" data-text="GET READY TO GAME ON!">GET READY TO GAME ON!</h1>
+                <p class="subheadline">Daily minigames. Global leaderboards. Cash prizes.</p>
+                
+                <div class="features">
+                    <div class="feature-item">
+                        <div class="pixel-icon">🎮</div>
+                        <p>One new game every 24 hours</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="pixel-icon">🏆</div>
+                        <p>3 attempts to practice, 3 attempts for high score</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="pixel-icon">💰</div>
+                        <p>Top 3 scores each day win prizes</p>
+                    </div>
+                </div>
+                
+                <div class="waitlist-form">
+                    <h2>JOIN THE WAITLIST</h2>
+                    <form id="email-form">
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                            <button type="submit" class="cta-button">PLAY</button>
+                        </div>
+                    </form>
+                    <div id="confirmation" class="hidden">
+                        <p>You're on the list! Get ready to play soon.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 GameOn. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
